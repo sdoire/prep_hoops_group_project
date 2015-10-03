@@ -24,7 +24,7 @@ var mongoose = require("mongoose");
 mongoose.set("debug",true);
 
 //Mongo Labs DB
- var mongoURI = "mongodb://prephoopsAdmin:PHoopsAdmin@ds039073.mongolab.com:39073/prep_hoops_articledb";
+ var mongoURI = "mongodb://**REMOVED**.mongolab.com:39073/prep_hoops_articledb";
 
 //Connect to DB
  var MongoDB = mongoose.connect(mongoURI).connection;
